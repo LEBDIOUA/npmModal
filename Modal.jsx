@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import 'modal.css';
+import './modal.css';
 
 function Modal({ isOpen, onClose, title, messageBody, actions, modalRef }) {
     if (!isOpen) {
